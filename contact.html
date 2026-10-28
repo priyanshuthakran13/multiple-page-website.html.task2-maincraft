@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Maincrafts Technology about a website, portfolio, or digital project.">
+  <title>Contact | Maincrafts Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="pulse-dot"></span> Building better digital experiences, one idea at a time.</div>
+  <header class="site-header"><nav class="navbar container" aria-label="Main navigation"><a class="brand" href="index.html"><span class="brand-mark">M<span>.</span></span><span class="brand-name">MAINCRAFTS<small>TECHNOLOGY</small></span></a><button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="nav-links"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link active" href="contact.html">Contact</a><a class="nav-cta" href="#contact-form">Let’s talk <span>↗</span></a></div></nav></header>
+  <main>
+    <section class="contact-hero container"><div class="contact-intro"><div class="eyebrow"><span class="eyebrow-line"></span> CONTACT THE STUDIO</div><h1>Let’s start a<br><span class="gradient-text">conversation.</span></h1><p>Have a website idea, a question, or a project in mind? Send a message. The first step doesn’t need to be complicated.</p><div class="contact-detail"><span class="detail-icon">✉</span><div><small>EMAIL</small><a href="mailto:hr@maincrafts.com">hr@maincrafts.com</a></div></div><div class="contact-detail"><span class="detail-icon">⌖</span><div><small>WEB</small><a href="https://www.maincrafts.com" target="_blank" rel="noopener noreferrer">www.maincrafts.com</a></div></div><div class="contact-note"><span>✳</span> A clear message is a great place to begin.</div></div>
+      <div class="form-card" id="contact-form"><div class="form-heading"><span class="form-kicker">SEND A MESSAGE</span><h2>Tell us a little about it.</h2><p>Fields marked * are required.</p></div>
+        <form id="contactForm" novalidate>
+          <div class="form-row"><div class="form-field"><label for="name">Your name <span>*</span></label><input id="name" name="name" type="text" placeholder="e.g. Priyanshu Kumar" autocomplete="name" required><small class="field-error" id="nameError"></small></div><div class="form-field"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><small class="field-error" id="emailError"></small></div></div>
+          <div class="form-field"><label for="subject">What’s this about?</label><select id="subject" name="subject"><option value="">Choose a topic (optional)</option><option>Website development</option><option>Portfolio website</option><option>UI / design</option><option>Internship or career enquiry</option><option>Something else</option></select></div>
+          <div class="form-field"><label for="message">Your message <span>*</span></label><textarea id="message" name="message" rows="5" placeholder="Tell us what you have in mind..." required></textarea><small class="field-error" id="messageError"></small></div>
+          <button class="button button-primary form-submit" type="submit">Validate message <span>↗</span></button>
+          <p class="form-disclaimer">Demo form: this validates your input in the browser. It does not send or store messages until connected to a backend or form service.</p>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="index.html"><span class="brand-mark">M<span>.</span></span><span class="brand-name">MAINCRAFTS<small>TECHNOLOGY</small></span></a><p>Make something that matters.</p><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></div><div class="container footer-bottom"><span>© <span data-year></span> Maincrafts Technology</span><span>Designed with purpose · Built for the web</span></div></footer>
+</body>
+</html>
